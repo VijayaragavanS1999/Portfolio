@@ -40,17 +40,35 @@ function ProjectCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">
-          <a style={{ textDecoration: "none" }} href={props.code}>
-            See the Code
-          </a>
-        </Button>
-        <Button size="small">
-          <a style={{ textDecoration: "none" }} href={props.demo}>
-            Live Demo
-          </a>
-        </Button>
-      </CardActions>
+  {props.code ? (
+    <Button size="small">
+      <a
+        style={{ textDecoration: "none" }}
+        href={props.code}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        See the Code
+      </a>
+    </Button>
+  ) : (
+    <Button size="small" disabled>
+      Private
+    </Button>
+  )}
+
+  <Button size="small">
+    <a
+      style={{ textDecoration: "none" }}
+      href={props.demo}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Live Demo
+    </a>
+  </Button>
+</CardActions>
+
     </Card>
   );
 }

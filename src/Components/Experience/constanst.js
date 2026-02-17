@@ -32,46 +32,74 @@ export const experiences = [
   {
     id: 0,
     img: "Doko",
-    role: "Web Developer",
-    company: "Dokolany Cargo Management Pvt Ltd.",
-    date: "Nov 2022 - Present",
-    desc: ["Developed the core concept of our project — Cargo Details Page. This critical component, where individuals collaborated, serves as the focal point for intricate Package Dimension Calculations.",
-      "Implemented Tanstack Query for data fetching, leading to 80% reduction in loader time.",
-      "Salesync : Internal portal for sales and business teams, developed entire frontend (React.js). Integrated real-time communication through live chat using Socket.io.",
-      "Created Rest API for role, internal management (Node, Express, MongoDB, Mongoose)",
-      "Salesync : Integrated Socket.io for real-time communication",
-      "Created a custom middleware for all API to authenticate the user and Created mail templates using EJS"],
-    skills: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "Material UI",
-      "React",
-      "Redux",
-      "Tanstack-Query",
-      "Node Js",
-      "Express",
-      "MongoDB",
-      "Socket IO",
-      "Mongoose",
+    role: "Full Stack Engineer",
+    company: "Dokonaly Cargo Management Pvt Ltd.",
+    date: "Jan 2024 - Present",
+    desc: [
+      "Led a team of 4 developers and successfully delivered 2 major projects on schedule.",
+      "Individually designed and developed an automated Container Load Planner that optimized package placement, replaced a fully manual process, maximized CBM utilization, and improved shipment profitability.",
+      "Implemented an AI-powered OCR solution to extract and process document data, improving data entry efficiency by 70%.",
+      "Integrated TanStack Query for optimized data fetching, achieving an 80% reduction in page load times.",
+      "Built Salesync, a complete internal portal for sales and business teams using React.js, with real-time chat enabled via Socket.io.",
+      "Developed custom authentication middleware for APIs and created dynamic email templates using EJS."
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    skills: [
+      "React.js",
+      "TanStack Query",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Socket.io",
+      "Redis",
+      "REST APIs",
+      "EJS",
+      "AI OCR",
+      "Team Leadership"
+    ],
+    doc: ""
   },
   {
     id: 1,
+    img: "Doko",
+    role: "Web Developer",
+    company: "Dokonaly Cargo Management Pvt Ltd.",
+    date: "Nov 2022 - Jan 2024",
+    desc: [
+      "Developed frontend components for a cargo management system using React.js and Redux.",
+      "Created REST APIs for role-based access control and internal management using Node.js, Express, and MongoDB.",
+      "Developed the core Cargo Details Page enabling collaborative package dimension calculations.",
+      "Collaborated closely with backend teams to integrate RESTful APIs."
+    ],
+    skills: [
+      "React.js",
+      "Redux",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs"
+    ],
+    doc: ""
+  },
+  {
+    id: 2,
     img: "Nlc",
     role: "Graduate Trainee",
     company: "NLC India Limited",
     date: "Mar 2022 - Nov 2022",
-    desc: ["Voluntarily involved in creation of some webpages wherein employees would be able to raise complaints and automatic house allocation for employees in NLC India (HTML,CSS, Bootstrap).",
+    desc: [
+      "Voluntarily developed a web portal for employee complaint management, replacing manual processes.",
+      "Created an automated house allocation system for NLC India employees.",
+      "Collaborated with multiple departments to gather requirements and deliver internal tools."
     ],
     skills: [
       "HTML",
       "CSS",
-      "Javascript",
+      "JavaScript",
+      "Bootstrap"
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  },
-
-
+    doc: ""
+  }
 ];
+
